@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>APLIKASi | Laporan Siswa</title>
+  <title>APLIKASi | Laporan Masyarakat</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -39,8 +39,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h1 data-aos="fade-up">Layanan Laporan Siswa Berbasis Online</h1>
-          <h2 data-aos="fade-up" data-aos-delay="400">Sampaikan laporan masalah Anda di sini, kami akan memprosesnya dengan cepat , aman dan nyaman.</h2>
+          <h1 data-aos="fade-up">Layanan Laporan Kejahatan Seksual Berbasis Online</h1>
+          <h2 data-aos="fade-up" data-aos-delay="400">Sampaikan laporan masalah Anda di sini, kami akan memprosesnya dengan cepat, aman dan nyaman.</h2>
           <div data-aos="fade-up" data-aos-delay="800">
             <a href="{{ url('login')}}" class="btn-get-started scrollto">Laporkan!</a>
            
@@ -69,17 +69,17 @@
         <div class="row content">
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
             <p>
-              <h3>APLIKASIKU</h3> adalah sistem laporan pengaduan Siswa yang dibuat untuk memudahkan Siswa untuk memberikan laporan atau informasi kepada pihak petugas sekolah
+              <h3>LIMI</h3> adalah sistem laporan pengaduan Masyarakat yang dibuat untuk memudahkan Masyarakat untuk memberikan laporan atau informasi kepada pihak petugas berwajib.
             </p>
             <ul>
-              <h3>Tujuan APLIKASIKU</h3>
-              <li><i class="ri-check-double-line"></i>Memberikan Informasi atau laporan yang jelas kepada pihak sekolah supaya bisa ditindak lebih lanjut</li>
-              <li><i class="ri-check-double-line"></i>Mempermudah siswa untuk berkomunikasi dengan pihak sekolah</li>
+              <h3>Tujuan LIMI</h3>
+              <li><i class="ri-check-double-line"></i>Memberikan Informasi atau laporan yang jelas kepada pihak berwajib supaya bisa ditindak lebih lanjut.</li>
+              <li><i class="ri-check-double-line"></i>Mempermudah Masyarakat untuk berkomunikasi dengan pihak berwajib.</li>
             </ul>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
             <p>
-              <h4>APLIKASIKU</h4>merupakan komitmen  kami untuk melayani siswa. Dengan hadirnya sistem pelaporan pengaduan online ini, diharapkan setiap suara siswa bisa didengar dan ditindaklanjuti oleh pihak sekolah.
+              <h4>LIMI</h4>merupakan komitmen  kami untuk melayani Masyarakat. Dengan hadirnya sistem pelaporan pengaduan online ini, diharapkan setiap suara Masyarakat bisa didengar dan ditindaklanjuti oleh pihak berwajib.
             </p>
             <a href="#services" class="btn-learn-more">Tata cara atau alur pengaduan</a>
           </div>
@@ -104,7 +104,7 @@
                   <div class="count-box">
                     <i class="bi bi-emoji-smile"></i>
                     <span data-purecounter-start="0" data-purecounter-end="65" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Pengguna</strong><br>DAFTAR pengguna APLIKASIKU</p>
+                    <p><strong>Pengguna</strong><br>DAFTAR pengguna LIMI</p>
                   </div>
                 </div>
 
@@ -139,7 +139,7 @@
 
         <div class="section-title" data-aos="fade-up">
           <h2>TATA CARA</h2>
-          <p>Nah ini dia alur pelaporan yang ada website APLIKASIKU</p>
+          <p>Nah ini dia alur pelaporan yang ada website LIMI</p>
         </div>
 
         <div class="row">
