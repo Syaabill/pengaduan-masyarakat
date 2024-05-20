@@ -45,15 +45,22 @@
             <div class="flex items-center justify-end mt-4">
                 @if (Route::has('password.request'))
                     <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('password.request') }}">
-                        {{ __('lupa kata sandi Anda?') }}
+                        {{ __('Lupa kata sandi Anda?') }}
                     </a>
                 @endif
 
-                
-
-                <x-button class="ml-3  bg-blue-500 text-white font-bold rounded-md my-3 py-3 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:bg-blue-500 hover:scale-105 duration-300 ease-in-out">
+                <x-button class="ml-3 bg-blue-500 text-white font-bold rounded-md my-3 py-3 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:bg-blue-500 hover:scale-105 duration-300 ease-in-out">
                     {{ __('Login') }}
                 </x-button>
+            </div>
+
+            <div class="mt-4 text-center">
+                <p class="text-sm text-gray-600">
+                    {{ __("Don't have an account yet") }}
+                    <a href="{{ route('register') }}" class="underline text-blue-600 hover:text-blue-900">
+                        {{ __('Create an account first') }}
+                    </a>
+                </p>
             </div>
         </form>
         
