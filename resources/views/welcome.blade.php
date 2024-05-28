@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>APLIKASi | Laporan Masyarakat</title>
+  <title>LIMI | Lindungi Kami</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -88,49 +88,26 @@
       </div>
     </section><!-- End About Us Section -->
 
-    <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
-      <div class="container">
-
-        <div class="row">
-          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start" data-aos="fade-right" data-aos-delay="150">
-            <img src="assets/img/counts-img.svg" alt="" class="img-fluid">
-          </div>
-
-          <div class="col-xl-7 d-flex align-items-stretch pt-4 pt-xl-0" data-aos="fade-left" data-aos-delay="300">
-            <div class="content d-flex flex-column justify-content-center">
-              <div class="row">
-                <div class="col-md-6 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <i class="bi bi-emoji-smile"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="65" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Pengguna</strong><br>DAFTAR pengguna LIMI</p>
-                  </div>
-                </div>
-
-                <div class="col-md-6 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <i class="bi bi-journal-richtext"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Pengaduan</strong> <br> Jumlah pengaduan yg sudah dilaporkan</p>
-                  </div>
-                </div>
-
-                <div class="col-md-6 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <i class="bi bi-clock"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Tuntas</strong> <br> Jumlah laporan yg sudah ditangani</p>
-                  </div>
-                </div>
-
-
-              </div>
-            </div><!-- End .content-->
-          </div>
-        </div>
-
+    <!-- ======= Report Stats Section ======= -->
+<section id="report-stats" class="report-stats">
+  <div class="container">
+    <div class="section-title" data-aos="fade-up">
+      <h2>Statistik Pengaduan</h2>
+    </div>
+    <div class="row content">
+      <div class="col-lg-12" data-aos="fade-up" data-aos-delay="150">
+        <canvas id="reportChart"></canvas>
       </div>
+    </div>
+  </div>
+</section><!-- End Report Stats Section -->
+    </div>
+    <div class="row content">
+      <div class="col-lg-12" data-aos="fade-up" data-aos-delay="150">
+        <canvas id="reportChart"></canvas>
+      </div>
+    </div>
+  </div>
     </section><!-- End Counts Section -->
 
     <!-- ======= Services Section ======= -->
