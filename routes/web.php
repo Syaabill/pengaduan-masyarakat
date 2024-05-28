@@ -1,9 +1,16 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Auth\ReportController;
+use App\Http\Controllers\Auth\FAQController;
+
 
 Route::get('/', function () {
     return view('welcome');
+});
+
+Route::get('/faq', function () {
+    return view('faq');
 });
 
 // Admin/Petugas
@@ -35,7 +42,8 @@ Route::prefix('user')
 });
 
 
+Route::get('/report-data', [ReportController::class, 'getReportData']);
 
-
+// Route::get('/faq', 'FAQController@index')->name('faq');
 
 require __DIR__.'/auth.php';
